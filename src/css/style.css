@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  font-size: .32rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 1.53rem;
+  border-bottom: 1px solid #ececec;
+}
+
+.header .top {
+  width: 100%;
+  height: .7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 0 .25rem;
+}
+
+.header .top a {
+  color: #0b131f;
+}
+
+.header .top a:nth-child(2) {
+  width: 5.4rem;
+  border-radius: 15px;
+  padding-left: .1rem;
+  background: #eff2f6;
+  padding: .05rem 0;
+}
+
+.header .top a:nth-child(2) i {
+  padding-left: 1rem;
+  color: #d7dbe1;
+}
+
+.header .top a:nth-child(2) input {
+  outline: none;
+  border: none;
+  background: #eff2f6;
+  padding-left: .07rem;
+  height: 100%;
+}
+
+.header .top a:nth-child(3) {
+  padding-left: .1rem;
+}
+
+.header .nav {
+  width: 100%;
+  height: .83rem;
+}
+
+.header .nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: .83rem;
+}
+
+.header .nav ul li {
+  padding: 0 .1rem;
+  flex-shrink: 0;
+  font-size: 12px;
+}
+
+.header .nav ul li i {
+  font-size: 10px !important;
+}
+
+.header .nav ul li:nth-child(5) i {
+  background: #e5e5e5;
+  color: #fff;
+  border-radius: 50%;
+  padding: .03rem;
+}
